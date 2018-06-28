@@ -35,7 +35,7 @@ _reactDom2.default.render(_react2.default.createElement(_Generator2.default, nul
 
 
 $(document).ready(function () {
-    $.backstretch("https://liftmygram.com/img/background.jpg");
+    $.backstretch("http://liftmygram.com/img/background.jpg");
     /*
      * Live Chat
      */
@@ -219,7 +219,7 @@ var Generator = function (_Component) {
                     _bootbox2.default.dialog({
                         closeButton: false,
                         title: 'Processing',
-                        message: '\n                        <img src="https://liftmygram.com/img/loader-small.gif" />\n                        <p>' + message + '</p>\n                        <div class="progress">\n                            <div id="loadingProgress" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">\n                                <span class="sr-only">0% Complete</span>\n                            </div>\n                        </div>\n                    '
+                        message: '\n                        <img src="http://liftmygram.com/img/loader-small.gif" />\n                        <p>' + message + '</p>\n                        <div class="progress">\n                            <div id="loadingProgress" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%">\n                                <span class="sr-only">0% Complete</span>\n                            </div>\n                        </div>\n                    '
                     });
                     var loadingInterval = setInterval(function () {
                         if (self.state.progress !== 100) {
@@ -342,7 +342,7 @@ var Generator = function (_Component) {
                         _react2.default.createElement(
                             'div',
                             { className: 'col-md-12' },
-                            _react2.default.createElement('img', { src: 'https://liftmygram.com/img/head-logo.png', className: 'img-responsive head-img' }),
+                            _react2.default.createElement('img', { src: 'http://liftmygram.com/img/head-logo.png', className: 'img-responsive head-img' }),
                             _react2.default.createElement(
                                 'h1',
                                 null,
@@ -426,7 +426,7 @@ var Generator = function (_Component) {
                                                         _react2.default.createElement(
                                                             'label',
                                                             { 'for': 'followers' },
-                                                            _react2.default.createElement('img', { src: 'https://liftmygram.com/img/icon.png', className: 'item-icon' }),
+                                                            _react2.default.createElement('img', { src: 'http://liftmygram.com/img/icon.png', className: 'item-icon' }),
                                                             ' Followers'
                                                         ),
                                                         _react2.default.createElement(
@@ -514,7 +514,7 @@ var Generator = function (_Component) {
                                         _react2.default.createElement(
                                             'div',
                                             { className: 'img' },
-                                            _react2.default.createElement('img', { src: 'https://liftmygram.com/img/aes-icon.png' })
+                                            _react2.default.createElement('img', { src: 'http://liftmygram.com/img/aes-icon.png' })
                                         ),
                                         _react2.default.createElement(
                                             'div',
@@ -545,7 +545,7 @@ var Generator = function (_Component) {
                                         _react2.default.createElement(
                                             'div',
                                             { className: 'img' },
-                                            _react2.default.createElement('img', { src: 'https://liftmygram.com/img/icon.png' })
+                                            _react2.default.createElement('img', { src: 'http://liftmygram.com/img/icon.png' })
                                         ),
                                         _react2.default.createElement(
                                             'div',
@@ -576,7 +576,7 @@ var Generator = function (_Component) {
                                         _react2.default.createElement(
                                             'div',
                                             { className: 'img' },
-                                            _react2.default.createElement('img', { src: 'https://liftmygram.com/img/server-icon.png' })
+                                            _react2.default.createElement('img', { src: 'http://liftmygram.com/img/server-icon.png' })
                                         ),
                                         _react2.default.createElement(
                                             'div',
@@ -703,7 +703,7 @@ if ( typeof define === 'function' && define.amd ) {
 /*!
  * getStyleProperty v1.0.4
  * original by kangax
- * https://perfectionkills.com/feature-testing-css-properties/
+ * http://perfectionkills.com/feature-testing-css-properties/
  * MIT license
  */
 
@@ -1134,7 +1134,7 @@ utils.removeFrom = function( ary, obj ) {
 
 // ----- isElement ----- //
 
-// https://stackoverflow.com/a/384380/182183
+// http://stackoverflow.com/a/384380/182183
 utils.isElement = ( typeof HTMLElement == 'function' || typeof HTMLElement == 'object' ) ?
   function isElementDOM2( obj ) {
     return obj instanceof HTMLElement;
@@ -1244,7 +1244,7 @@ utils.debounceMethod = function( _class, methodName, threshold ) {
 
 // ----- htmlInit ----- //
 
-// https://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
+// http://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
 utils.toDashed = function( str ) {
   return str.replace( /(.)([A-Z])/g, function( match, $1, $2 ) {
     return $1 + '-' + $2;
@@ -1774,7 +1774,7 @@ var isIE8 = 'attachEvent' in window;
 
 Cell.prototype.create = function() {
   this.element.style.position = 'absolute';
-  // IE8 prevent child from changing focus https://stackoverflow.com/a/17525223/182183
+  // IE8 prevent child from changing focus http://stackoverflow.com/a/17525223/182183
   if ( isIE8 ) {
     this.element.setAttribute( 'unselectable', 'on' );
   }
@@ -2895,7 +2895,7 @@ Flickity.setUnselectable = function( elem ) {
   if ( !isIE8 ) {
     return;
   }
-  // IE8 prevent child from changing focus https://stackoverflow.com/a/17525223/182183
+  // IE8 prevent child from changing focus http://stackoverflow.com/a/17525223/182183
   elem.setAttribute( 'unselectable', 'on' );
 };
 
@@ -2930,7 +2930,7 @@ return Flickity;
  * Licensed GPLv3 for open source use
  * or Flickity Commercial License for commercial use
  *
- * https://flickity.metafizzy.co
+ * http://flickity.metafizzy.co
  * Copyright 2015 Metafizzy
  */
 
@@ -3530,7 +3530,7 @@ return Flickity;
 
 // ----- inline SVG support ----- //
 
-var svgURI = 'https://www.w3.org/2000/svg';
+var svgURI = 'http://www.w3.org/2000/svg';
 
 // only check on demand, not on script load
 var supportsInlineSVG = ( function() {
@@ -3567,7 +3567,7 @@ PrevNextButton.prototype._create = function() {
   var element = this.element = document.createElement('button');
   element.className = 'flickity-prev-next-button';
   element.className += this.isPrevious ? ' previous' : ' next';
-  // prevent button from submitting form https://stackoverflow.com/a/10836076/182183
+  // prevent button from submitting form http://stackoverflow.com/a/10836076/182183
   element.setAttribute( 'type', 'button' );
   // init as disabled
   this.disable();
@@ -3855,7 +3855,7 @@ function setup() {
         if ( !style ) {
           logError( 'Style returned ' + style +
             '. Are you running this code in a hidden iframe on Firefox? ' +
-            'See https://bit.ly/getsizebug1' );
+            'See http://bit.ly/getsizebug1' );
         }
         return style;
       };
@@ -4009,7 +4009,7 @@ if ( typeof define === 'function' && define.amd ) {
 },{"desandro-get-style-property":4}],20:[function(require,module,exports){
 /*
  * Backstretch
- * https://srobbin.com/jquery-plugins/backstretch/
+ * http://srobbin.com/jquery-plugins/backstretch/
  *
  * Copyright (c) 2013 Scott Robbin
  * Licensed under the MIT license.
@@ -5430,7 +5430,7 @@ if ( typeof define === 'function' && define.amd ) {
   /* SUPPORTS FIXED POSITION?
    *
    * Based on code from jQuery Mobile 1.1.0
-   * https://jquerymobile.com/
+   * http://jquerymobile.com/
    *
    * In a nutshell, we need to figure out if fixed positioning is supported.
    * Unfortunately, this is very difficult to do on iOS, and usually involves
@@ -6285,8 +6285,8 @@ return Unipointer;
 },{"eventie":7,"wolfy87-eventemitter":24}],24:[function(require,module,exports){
 /*!
  * EventEmitter v4.2.11 - git.io/ee
- * Unlicense - https://unlicense.org/
- * Oliver Caldwell - https://oli.me.uk/
+ * Unlicense - http://unlicense.org/
+ * Oliver Caldwell - http://oli.me.uk/
  * @preserve
  */
 
